@@ -1,10 +1,10 @@
 import { Switch, Route } from 'react-router-dom';
 import Container from './components/Container/Container';
 import Navigation from './components/Navigation/Navigation';
-import HomePage from './views/HomePage';
-import MoviesPage from './views/MoviesPage';
+import HomePage from './views/HomePage/HomePage';
+import MoviesPage from './views/MoviesPage/MoviesPage';
 import MovieDetailsPage from './components/MovieDetailsPage/MovieDetailsPage';
-import NotFoundView from './views/NotFoundView';
+import NotFoundView from './views/NotFoundView/NotFoundView';
 // import './App.css';
 
 function App() {

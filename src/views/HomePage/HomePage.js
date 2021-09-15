@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useRouteMatch } from 'react-router-dom';
-import { fetchTrendingMovies } from '../services/movies-api';
-import SearchError from '../components/SearchError/SearchError';
+import { fetchTrendingMovies } from '../../services/movies-api';
+import SearchError from '../../components/SearchError/SearchError';
 
 const Status = {
   IDLE: 'idle',

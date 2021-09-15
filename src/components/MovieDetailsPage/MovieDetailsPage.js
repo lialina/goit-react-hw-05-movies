@@ -39,7 +39,7 @@ export default function MovieDetailsPage() {
     {status === Status.RESOLVED &&
     <>
       <div>
-        <img src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt="Movie poster" width={250}/>
+        <img src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt="Movie poster" width="250"/>
         <h3>{movie.title}</h3>
         <p>User Score: %</p>
         <h4>Overview</h4>
@@ -61,11 +61,11 @@ export default function MovieDetailsPage() {
       </>
     }
 
-    <Route path={`${path}/:movieId/cast`}>
+    <Route path={`${path}/cast`}>
       <Cast />
     </Route>  
 
-    <Route path={`${path}/:movieId/reviews`}>
+    <Route path={`${path}/reviews`}>
       <Reviews />
     </Route> 
     </>
