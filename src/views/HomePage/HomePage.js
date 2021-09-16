@@ -31,7 +31,6 @@ export default function HomePage() {
   
   return (
   <div>
-    <h1>Hi, I am HomePage</h1>
     <h2>Trending today</h2>
     <div>
       {status === Status.REJECTED && <SearchError message={error.message} />}
