@@ -15,7 +15,7 @@ export default function Cast() {
   const [cast, setCast] = useState([]);
   const [status, setStatus] = useState(Status.IDLE);
   const [error, setError] = useState(null);
-  console.log(cast);
+
 
   useEffect(() => {
     fetchMovieActors(movieId)

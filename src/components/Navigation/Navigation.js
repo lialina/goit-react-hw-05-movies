@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import s from './Navigation.module.css';
 
 const Navigation = () => (
+  <>
   <nav>
     <NavLink exact className={s.link} activeClassName={s.activeLink} to="/">
       Home
@@ -10,6 +11,10 @@ const Navigation = () => (
       Movies
     </NavLink>
   </nav>
+  <hr />
+  </>
+  
+  
 );
 
 export default Navigation;

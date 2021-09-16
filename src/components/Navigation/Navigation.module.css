@@ -1,7 +1,8 @@
 .link {
-  color: cornflowerblue;
+  margin-right: 20px;
+  color: darkslategray;
 }
 
 .activeLink {
-  color: darkslategray;
+  color: cornflowerblue;
 }

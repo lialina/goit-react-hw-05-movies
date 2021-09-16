@@ -17,7 +17,6 @@ export default function MovieDetailsPage() {
   const [movie, setMovie] =  useState(null);
   const [status, setStatus] = useState(Status.IDLE);
   const [error, setError] = useState(null);
-  const [cast, setCast] = useState([]);
 
   useEffect(() => {
     fetchMovieDetailsById(movieId)
